@@ -171,5 +171,3 @@ def distance_matrix(location, mode):
 
     json = r.json()
     print("Status:", json.get('code'), json.get('status'))
-
-distance_matrix(['9928 oakridge dr Overland park, KS ', '11300 Nall Avenue overland Park, ks'], 'walking')
